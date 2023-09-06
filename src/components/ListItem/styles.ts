@@ -6,8 +6,8 @@ interface ContainerProps {
 
 export const Container = styled.div<ContainerProps>`
     display: flex;
-    color: #20212C;
-    padding: 10px;
+    background-color: #20212C;
+    padding: 15px;
     border-radius: 10px;
     align-items: center;
     margin-bottom: 10px;
@@ -20,6 +20,6 @@ export const Container = styled.div<ContainerProps>`
     input {
         width: 20px;
         height: 20px;
-        margin-right: 5px;
+        margin-right: 15px;
     }
 `;
